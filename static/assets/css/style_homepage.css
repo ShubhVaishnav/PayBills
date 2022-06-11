@@ -1,0 +1,505 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+
+body {
+    /*background-color: #f2f3f7;*/
+    background-color: #ffffff;
+    color: #191e24;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+a,a:focus {
+    outline: 0;
+}
+ul {
+    margin: 0;
+}
+a {
+    color: #0070BA;
+}
+a:hover {
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    word-break: break-word;
+    font-weight: 600;
+}
+p {
+    margin: 0;
+}
+.liner-btn {
+    border: 2px solid #0070BA;
+    border-radius: 30px;
+    padding: 10px 25px!important;
+    color: #0070BA;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.primary-color-btn {
+    border: 2px solid #47B2E4;
+    border-radius: 30px;
+    padding: 10px 25px!important;
+    background-color: #47B2E4;
+    color: #ffffff!important;
+    font-weight: 500;
+    font-size: 16px;
+}
+.banner-btn-div a {
+    width: 100%;
+    display: block;
+}
+/* Header */
+.header-search input::placeholder {
+    color: #bd0b1c;
+}
+.header-search input:focus {
+    background-color: #f8f8f8;
+}
+.header-search i {
+    position: absolute;
+    color: #bd0b1c;
+    top: 15px;
+    font-size: 24px;
+    left: 15px;
+}
+.header-search input {
+    border: 1px solid transparent;
+    color: #bd0b1c;
+    background-color: #f8f8f8;
+    border-radius: 0;
+    height: 55px;
+    width: 350px;
+    padding-left: 55px;
+}
+header {
+    padding: 10px 15px;
+}
+header {
+    position: absolute;
+    top: 0;
+    background-color: transparent;
+    z-index: 9;
+    left: 0;
+    right: 0;
+    padding: 15px 0;
+}
+.main-header .navbar .navbar-nav .nav-item .btn {
+    padding: 10px 40px !important;
+}
+.main-header .navbar .navbar-nav .nav-item {
+    margin: 0 15px;
+}
+.main-header .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    color: #0070BA;
+}
+/* Banner Css*/
+.banner-section {
+    background-image: url("../img/memphis_1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right top;
+    padding-top: 150px;
+    overflow: hidden;
+}
+.banner-title h1 {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.banner-title p {
+    font-size: 18px;
+    line-height: 28px;
+}
+.banner-title span {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #54595F;
+    font-weight: 500;
+    margin-bottom: 10px;
+    display: block;
+}
+.banner-title small{
+    color: #7A7A7A;
+}
+.banner-btn-div {
+    margin: 25px 0;
+}
+
+/* Feature Css */
+.feature-section {
+    background-color: #0070BA;
+    padding: 40px 0;
+}
+.feature-text h6 {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.feature-text p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+    font-weight: 400;
+}
+.icon-d {
+    width: 60px;
+    height: 60px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0070BA;
+    flex: 0 0 60px;
+    margin-right: 20px;
+}
+.featurebox {
+    display: flex;
+    align-items: center;
+}
+
+/* Real Section css */
+.realpeople-section {
+
+    position: relative;
+    padding: 100px 0;
+}
+.realbg {
+    background-image: url("../img/bg_map.png");
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.1;
+    top: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.real-content-div {
+    position: relative;
+    z-index: 9;
+}
+
+.sec-title-box p {
+    font-size: 18px;
+    line-height: 28px;
+}
+.sec-title-box {
+    margin-bottom: 60px;
+}
+
+.real-text {
+    text-align: right;
+}
+.real-text p {
+    font-size: 16px;
+    font-weight: 500;
+    padding-right: 35px;
+}
+.real-box {
+    display: flex;
+    align-items: center;
+}
+.real-box {
+    display: flex;
+    align-items: center;
+}
+.real-icon {
+    font-size: 34px;
+    color: #47B2E4;
+    margin-right: 20px;
+    width: 35px;
+}
+.about-section {
+    padding: 100px 0;
+    background-color: #f1f8ff;
+}
+.tag-title {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #54595F;
+    font-weight: 500;
+    margin-bottom: 10px;
+    display: block;
+}
+.p-tag {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+/* Smart Section css */
+.smart-section {
+    padding: 100px 0;
+}
+.smart-box {
+    padding: 30px;
+    box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    position: relative;
+    margin-bottom: 25px;
+}
+.smart-box h5 {
+    margin: 15px 0;
+}
+.smart-box i {
+    color: #47B2E4;
+    font-size: 40px;
+}
+.learn-btn {
+    font-size: 14px;
+    border-bottom: 1px solid #47B2E4;
+    border-radius: 0;
+    padding: 5px 0;
+    color: #47B2E4;
+    font-weight: 500;
+}
+.learn-btn:hover {
+    color: #47B2E4;
+}
+.learn-btn i {
+    font-size: 14px!important;
+}
+.smart-box p {
+    margin-bottom: 25px;
+    line-height: 18px;
+}
+.smart-box:hover {
+    color: #ffffff;
+    cursor: context-menu;
+    transition: 0.2s;
+    transform: translateY(-8px);
+}
+.smart-box::after {
+    border-radius: 25px;
+    content: "";
+    width: 0%;
+    height: 0%;
+    background-color: #0070BA;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -9;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    margin: auto;
+}
+.smart-box:hover::after {
+    height: 100%;
+    width: 100%;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+/* Leading Section Css */
+.landing-section {
+    padding: 250px 0 120px;
+    background-image: url("../img/businessman-using-his-laptop-in-the-cofee-shop-.jpg");
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 9;
+}
+.landing-section::after {
+    content: "";
+    background-color: #0070BA;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.6;
+    z-index: -9;
+}
+
+.landing-content h1 {
+    margin-bottom: 15px;
+}
+.landing-btn-div .liner-btn {
+    border-color: #fff;
+    color: #fff;
+}
+.landing-content h5 {
+    margin-bottom: 15px;
+}
+.landing-btn-div .btn {
+    min-width: 300px;
+    margin: 0 5px;
+}
+
+/* Testimonial Css */
+.testimonial-section {
+    padding: 100px 0;
+    background-color: #f1f8ff;
+}
+
+.testimonial-text {
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    font-size: 16px;
+    line-height: 30px;
+    position: relative;
+}
+.test-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 15px;
+}
+.testimonial-imgname {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+.testimonial-name p {
+    color: #47B2E4;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.testimonial-text::after {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: -6px;
+    transform: rotate(46deg);
+    left: 30px;
+}
+.testimonial-slider-div {
+    padding: 0 30px;
+}
+
+/* FAQ CSS*/
+
+.faq-collapse-div .card .card-header {
+    padding: 0;
+}
+.faq-collapse-div .card .card-header h5 .btn {
+    padding: 30px;
+    display: block;
+    color: #191e24;
+    font-size: 20px;
+    font-weight: 600;
+    width: 100%;
+    text-align: left;
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 30px 30px 0 0;
+}
+.faq-collapse-div .card .card-header h5 .btn[aria-expanded="true"] {
+    background-color: #0070BA;
+    color: #ffffff;
+}
+.faq-collapse-div .card .collapse {
+    border-radius: 0 0 30px 30px;
+}
+.faq-collapse-div .card .card-header {
+    background-color: transparent;
+}
+.faq-collapse-div .card {
+    border: none;
+    overflow: hidden;
+    margin-bottom: 10px;
+    background-color: #f1f8ff;
+    border-radius: 30px;
+}
+.faq-collapse-div .card .card-header {
+    border-bottom: 1px solid #f1f8ff;
+}
+.faq-collapse-div .card .card-body {
+    padding: 30px;
+    font-size: 16px;
+    line-height: 26px;
+}
+.faq-section {
+    padding: 100px 0;
+}
+
+/* Start Section Css */
+
+.start-paybill-section {
+    padding: 50px 0 100px;
+}
+.start-paybill-div {
+    background-color: #f1f8ff;
+    padding: 100px 15px;
+    border-radius: 30px;
+}
+.start-btn-div a {
+    min-width: 300px;
+    margin: 0 5px;
+}
+.footer-text {
+    margin: 30px 0;
+}
+.footer-div ul li {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.footer-div ul li a {
+    color: #191E24;
+}
+.footer-div h5 {
+    margin-bottom: 30px;
+}
+.bt-footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: 300;
+}
+.bt-footer ul li a {
+    color: #191e24;
+}
+.bottom-footer {
+    border-top: 1px solid #dadada;
+    padding: 30px 0;
+    font-size: 12px;
+}
+.top-footer {
+    padding: 50px 0;
+}
+.web-intro {
+    text-align: center;
+    margin: 30px 0;
+}
+.web-intro p{
+    font-weight: 300;
+    line-height: 24px;
+}
+.social-div ul li {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 16px;
+}
+.social-div {
+    margin-top: 35px;
+    display: block;
+}
